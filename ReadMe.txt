@@ -11,7 +11,7 @@ Procedure to use the tool.
 	a. managemnet api uri : enter management url from http till .com  or management IP with port
 		eg : http://xyz.com  	or 		http://xxx.xxx.xxx.xxx:8080
 	
-	b. basic Authorization : enter the basic Uthorization including Basic 
+	b. basic Authorization : enter the basic Uthorization of the SysAdmin including Basic 
 		eg : Basic xxxxxxxxxxxxxxxxxxxxxxxxxxx
 	c. organization name : enter organization details
 		eg : production
