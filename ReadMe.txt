@@ -18,5 +18,9 @@ Procedure to use the tool.
 	
 	Note : Old is the one from which the data will be migrated
 		   New is the one to whcih the data will be migrated
+		   
+		   
+	
+	2. Users and roles migration added. The description is present in the word file.
 	
 	
