@@ -1,26 +1,7 @@
-Using this tool all developers, developer apps and Users can be migrated from one server to another.
-For Users to migrate the users should be present in OpenLdap or atleast in one organization of the same Setup.
+This script downloads the old revisions of each proxy and deletes them from apigee.
 
-Procedure to use the tool.
+The script first checks the revision numbers of each environmnet in an organization, then finds the lowest deployed revision from all the environmnet reviions, then it retains 2 lower revisions of that revision. other lower revisions it downloads to loacl system and then delete from apigee.
 
-1. run the command 
-	java -jar APIGEE_MIGRATION_PAJ.jar
-	
-	ener the asked inputs further 
-	
-	a. managemnet api uri : enter management url from http till .com  or management IP with port
-		eg : http://xyz.com  	or 		http://xxx.xxx.xxx.xxx:8080
-	
-	b. basic Authorization : enter the basic Uthorization of the SysAdmin including Basic 
-		eg : Basic xxxxxxxxxxxxxxxxxxxxxxxxxxx
-	c. organization name : enter organization details
-		eg : production
-	
-	Note : Old is the one from which the data will be migrated
-		   New is the one to whcih the data will be migrated
-		   
-		   
-	
-	2. Users and roles migration added. The description is present in the word file.
-	
-	
+It asks IP of managemnet server, organization name and sysadmin username and password as input for the action.
+
+As its a python script, required environment and modules should have been setup.
